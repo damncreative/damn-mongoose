@@ -1,0 +1,37 @@
+{
+  "name": "damn-mongoose",
+  "version": "0.0.11",
+  "description": "Collection of some damn mongoose utilities",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha test"
+  },
+  "engines": {
+    "node": ">=4.2.1"
+  },
+  "author": "damn creative <info@damncreative.de>",
+  "liecnse": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:damncreative/damn-mongoose.git"
+  },
+  "homepage": "https://github.com/damncreative/damn-mongoose",
+  "bugs": "https://github.com/damncreative/damn-mongoose/issues",
+  "keywords": [
+    "damn",
+    "mongoose"
+  ],
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "damn-utils": "0.0.11",
+    "debug": "^2.2.0",
+    "lodash": "^4.8.2"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
+    "mongoose": "^4.4.12",
+    "should": "^8.2.1"
+  }
+}
